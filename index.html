@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valeria Lizárraga</title>
+	 <link rel="shortcut icon" href="imagenes/icono.png">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/fotos.js"></script>
+	<script type="text/javascript" src="js/efectos.js"></script>
+
+
+<script type="text/javascript">
+	$(function(){
+  		$('#container').mixItUp();
+	});
+
+	$(document).on('click', function(){
+		$('#container').mixItUp();
+	})
+</script>
+
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+
+<header>
+	<nav>
+		<ul>
+			<li ><a href="#" class="primerli">Home</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+				<a href="index.html"><img class="logo" src="imagenes/9.png"></a>
+			<li><a href="#precios">Precios</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+<section class="blabla">
+	<div class="colum">
+				<div class="aboutme">
+			<h2>¿Quien soy?</h2>
+			<p>Soy Valeria, una profesional que complementa el diseño gráfico y la fotografía, tratando de resolver los deseos del cliente de la mejor manera posible, por medio de la creatividad, la técnica y la experiencia.</p>
+			 <p>Estudié Fotografía en el ISET XVIII “20 de junio” en Rosario, Santa fe, y Diseño Gráfico y Comunicación Visual en la Escuela Provincial de Artes Visuales “Gral Manuel Belgrano” también de la ciudad de Rosario. </p>
+			 <p>Alto manejo en programas tales como: <strong>Adobe Photoshop Lightroom, Adobe Photoshop, Adobe Illustrator, Adobe InDesign</strong></p>
+			 
+
+				
+		</div>
+
+		<div class="botones">
+		<a href="#portfolio" class="boton1">Portfolio</a>
+		<a href="#contacto" class="boton2">Contacto</a>
+		</div>
+	</div>
+
+
+</section>
+
+<section class="parteuno">
+
+
+	<article class="portfolio" id="portfolio">
+
+		<h1>Portfolio</h1>
+<ul>
+	<li><a href="#portfolio" class="boton filter " data-filter="all">Todos</a></li>
+	<li><a href="#portfolio" class="boton filter " data-filter=".diseño">Diseño Grafico</a></li>
+	<li><a href="#portfolio" class="boton filter" data-filter=".foto">Eventos</a></li>
+	<li><a href="#portfolio" class="boton filter" data-filter=".ilustrar">De producto</a></li>
+	<li><a href="#portfolio" class="boton filter" data-filter=".reportaje">Fotorreportaje</a></li>
+	<li><a href="#portfolio" class="boton filter" data-filter=".artistica">Producciones artisticas</a></li>
+</ul>
+
+	<div class="contenedor" id="container">
+		<div class="rombo1 mix diseño">
+			<img src="imagenes/Diseño_grafico/13.jpg" onclick="mostrarfoto('imagenes/diseño_grafico/13.jpg')">
+		</div>
+		<div class="rombo mix diseño" >
+			<img src="imagenes/Diseño_grafico/2.jpg" onclick="mostrarfoto('imagenes/Diseño_grafico/2.jpg')">
+		</div>
+		<div class="rombo mix diseño" >
+			<img src="imagenes/Diseño_grafico/10.jpg" onclick="mostrarfoto('imagenes/Diseño_grafico/10.jpg')">
+		</div>
+		<div class="rombo mix diseño" >
+			<img src="imagenes/Diseño_grafico/7.jpg" onclick="mostrarfoto('imagenes/Diseño_grafico/7.jpg')" >
+		</div>
+		<div class="rombo mix foto" >
+			<img src="imagenes/eventosynoche/1.jpg" onclick="mostrarfoto('imagenes/eventosynoche/1.jpg')">
+		</div>
+		<div class="rombo mix foto" >
+			<img src="imagenes/eventosynoche/4.jpg" onclick="mostrarfoto('imagenes/eventosynoche/4.jpg')">
+		</div>
+		<div class="rombo mix foto" >
+			<img src="imagenes/eventosynoche/6.jpg" onclick="mostrarfoto('imagenes/eventosynoche/6.jpg')">
+		</div>
+		<div class="rombo mix foto" >
+			<img src="imagenes/eventosynoche/26.jpg" onclick="mostrarfoto('imagenes/eventosynoche/26.jpg')">
+		</div>
+		<div class="rombo mix foto" >
+			<img src="imagenes/eventosynoche/13.jpg" onclick="mostrarfoto('imagenes/eventosynoche/13.jpg')">
+		</div>
+		<div class="rombo mix foto" >
+			<img src="imagenes/eventosynoche/30.jpg" onclick="mostrarfoto('imagenes/eventosynoche/30.jpg')">
+		</div>
+		<div class="rombo mix ilustrar" >
+			<img src="imagenes/Fotografia _de_producto/1.jpg" onclick="mostrarfoto('imagenes/Fotografia _de_producto/1.jpg')">
+		</div>
+		<div class="rombo mix ilustrar" >
+			<img src="imagenes/Fotografia _de_producto/2.jpg" onclick="mostrarfoto('imagenes/Fotografia _de_producto/2.jpg')">
+		</div>
+		<div class="rombo mix ilustrar" >
+			<img src="imagenes/Fotografia _de_producto/3.jpg" onclick="mostrarfoto('imagenes/Fotografia _de_producto/3.jpg')">
+		</div>
+		<div class="rombo mix ilustrar" >
+			<img src="imagenes/Fotografia _de_producto/4.jpg" onclick="mostrarfoto('imagenes/Fotografia _de_producto/4.jpg')">
+		</div>
+		<div class="rombo mix reportaje" >
+			<img src="imagenes/Fotorreportaje/1.jpg" onclick="mostrarfoto('imagenes/Fotorreportaje/1.jpg')">
+		</div>
+		<div class="rombo mix reportaje" >
+			<img src="imagenes/Fotorreportaje/2.jpg" onclick="mostrarfoto('imagenes/Fotorreportaje/2.jpg')">
+		</div>
+		<div class="rombo mix reportaje" >
+			<img src="imagenes/Fotorreportaje/3.jpg" onclick="mostrarfoto('imagenes/Fotorreportaje/3.jpg')">
+		</div>
+		<div class="rombo mix reportaje">
+			<img src="imagenes/Fotorreportaje/4.jpg" onclick="mostrarfoto('imagenes/Fotorreportaje/4.jpg')">
+		</div>
+		<div class="rombo mix artistica" >
+			<img src="imagenes/Producciones_artisticas/1.jpg" onclick="mostrarfoto('imagenes/Producciones_artisticas/1.jpg')">
+		</div>
+		<div class="rombo mix artistica" >
+			<img src="imagenes/Producciones_artisticas/2.jpg" onclick="mostrarfoto('imagenes/Producciones_artisticas/2.jpg')">
+		</div>
+		<div class="rombo mix artistica" >
+			<img src="imagenes/Producciones_artisticas/3.jpg" onclick="mostrarfoto('imagenes/Producciones_artisticas/3.jpg')">
+		</div>
+		<div class="rombo mix artistica">
+			<img src="imagenes/Producciones_artisticas/4.jpg" onclick="mostrarfoto('imagenes/Producciones_artisticas/4.jpg')">
+		</div>
+		<div class="rombo mix artistica">
+			<img src="imagenes/Producciones_artisticas/5.jpg" onclick="mostrarfoto('imagenes/Producciones_artisticas/5.jpg')">
+		</div>
+		
+	</div>
+
+	<div class="contenedor2 ocultar" onclick="ocultarfoto()">
+	<div class="imgg"><img src="" onclick="ocultarfoto()" id="fotomuestra"></div>
+	</div>
+
+<a href="galeria.html" class="hola">Ver más</a>
+	</article>
+	
+
+
+</section>
+
+<section class="partedos">
+
+	<article class="precios" id="precios">
+		<h1>Precios</h1>
+		<div class="fondito">
+			<div class="productos">
+				<h3>Fotografia:</h3>
+				<p>Fotografía en cumpleaños de niños, bautismos, comuniones (1 hs + horas de edición) <strong class="preciox">$800</strong></p>
+				<p>Fotografía en cumpleaños, casamientos (7 hs+ horas de edición) <strong class="preciox">$4000</strong></p>
+				<p>Producción de fotos (en estudio o aire libre, aproximadamente 5 hs más horas de edición) <strong class="preciox">$4000</strong></p>
+				<p>Fotografía nocturna (pubs, boliches, bares  4 hs+ horas de edición) <strong class="preciox">$800</strong></p>
+				<p>Fotografía de producto <strong class="preciox">$300 p/hora</strong></p>
+				
+				
+				
+
+			</div>
+			<div class="valor">
+				<h3>Diseño grafico:</h3>
+				<p>Diseño de identidad corporativa <strong class="preciox">$2000</strong></p>
+				<p>Gráficas para eventos en redes sociales <strong class="preciox">$300</strong></p>
+				<p>Gigantografía  <strong class="preciox">$500</strong></p>
+				<p>Fotolibro tapa dura 30x45 15 hojas  <strong class="preciox">$1400</strong></p>
+				<p>Fotolibro tapa dura 20x30 15 hojas <strong class="preciox">$1000</strong></p>
+				<p>Libro de firmas <strong class="preciox">$500</strong></p>
+				<div class="promo">
+					<h3>Promo 15 años:</h3>
+					<p>Producción de fotos previas + fotografía en el evento + álbum de 25 fotos reveladas + 2 DVD con fotos del evento y  fotos previas <strong class="preciio">$6000</strong></p>
+				</div>
+				
+			</div>
+		</div>
+	</article>
+
+	<article class="contacto" id="contacto">
+		<h1>Contacto</h1>
+		<label>Nombre:</label>
+		<input type="text" name="nombre"  id="nombre" required="">
+		<label>Email:</label>
+		<input type="email" name="mail" id="email" required="">
+		<label>Mensaje:</label>
+		<textarea id="mensaje" required=""></textarea>
+		<button type="submit" onclick="validar()">Enviar</button>
+	</article>
+	
+</section>
+
+<footer>
+	<h3>Valeria Lizárraga @ Copyright 2016</h3>
+	<a href="https://www.facebook.com/lizarraga.vale?fref=ts"><img src="imagenes/facebook.png">
+	<a href="https://www.instagram.com/lizarragavaler/"><img src="imagenes/instagram.png"></a>
+</footer>
+
+<script type="text/javascript" src="js/efectos.js"></script>
+</body>
+</html>
